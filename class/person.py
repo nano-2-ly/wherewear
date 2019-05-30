@@ -3,8 +3,8 @@ class person(object):
         '''
         # class person
 
-        This class contain varialbe information about client.
-        Client record detail information about their clothes, and sever would calculate client future state about weather(or cilmate).
+        This class contains several informations about user.
+        User records detail information about their clothes, and sever would calculate client future state about weather(or cilmate).
 
         + top_clothes
         This variable contain clothes detail informations(that is clothes_detail_information object) about top clothes.
@@ -27,7 +27,6 @@ class person(object):
         + personal_information_score
         This variable contains reuslt of evaluation about personal_information attributes
 
-
         '''
         
         self.top_clothes = []
@@ -40,19 +39,24 @@ class person(object):
 
     def get_top_clothes(self, top_clothes_item):
         self.top_clothes.append(top_clothes_item)
+        return True
 
     def get_bottom_clothes(self, bottom_clothes_item):
         self.bottom_clothes.append(bottom_clothes_item)
+        return True
 
     def get_personal_information(self, personal_information):
         self.personal_information = personal_information
+        return True
 
     def get_top_clothes_score(self, top_clothes_score):
         self.get_top_clothes_score = top_clothes_score
+        return True
     
     def get_bottom_clothes_score(self, bottom_clothes_score):
         self.get_bottom_clothes_score = bottom_clothes_score
-    
+        return True
+
     def get_personal_information_score(self, personal_information_score):
         self.personal_information_score = personal_information_score
-    
+        return True
