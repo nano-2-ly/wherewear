@@ -7,22 +7,21 @@ class environment(object):
         User records detail information about their environment, and sever would calculate client future state about weather(or cilmate).
 
         + temperature
-        This variable contains 
+        This variable contains environment temperature.
+        'temperature' would be float data.
+
         + humidity
+        This variable contains environment humidity.
+        'humidity' would be float data.
 
         + wind_velocity
-
-        + get_ temperature
-
-        + get_humidity
-
-        + get_wind_velocity
-
+        This variable contains environment wind velocity.
+        'wind_velocity' would be float data.
 
         '''
 
         self.temperature = None # must be celcius not fahrenheit
-        self.humidity = None
+        self.humidity = None # 
         self.wind_velocity = None
 
 
@@ -37,6 +36,4 @@ class environment(object):
     def get_wind_velocity(self, wind_velocity):
         self.wind_velocity = wind_velocity
         return True
-
-
     
