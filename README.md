@@ -25,7 +25,12 @@ Of course, 4 is
 
 Maybe there is a lot of other application. But just fourth reason(clothes recommandation) would change our life better.
 
-## Plan
+## Plan : overview
+<img src="./readme_content/image/road_map.png" width="80%" height="80%"></br>
+This is a develop road map to build service.<br>
+
+
+## Plan : detail
 
 ### Algorithm research
 + **same** temperature, humidity, and climate / **different** person
